@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+    <head>
+        <title>Queen Official Website</title>
+        <link rel="normalize" href="Normalize.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Top Navigation -->
+        <div class="topnav">
+            <a href="about.html" >About</a>
+            <a href="shop.html">Shop</a>
+            <a class="active" href="Index.html">Home</a>
+        </div>
+
+        <div class="header">
+            <h1 style="text-align: center; color: white;"> The Official Queen Online Shop </h1>
+        </div>
+
+        <!-- Filter -->
+    
+        <div class="header">
+            <div id="myfilterContainer" style="padding: 20px;">
+                <button class="filter active" onclick="filterSelection('all')"> Show all</button>
+                <button class="filter" onclick="filterSelection('jewlery')"> Jewlery</button>
+                <button class="filter" onclick="filterSelection('collectables')"> Collectables</button>
+                <button class="filter" onclick="filterSelection('vinyls')"> Vinyls</button>
+                <button class="filter" onclick="filterSelection('clothes')"> Clothes</button>
+            </div>
+        </div>
+    
+
+    <!-- Shop items -->
+        <script src="script.js"></script>
+        <div class="container-shop">
+            <div class="filterDiv jewlery">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Boxed-Freddie-Mercury-Statue-Charm.jpeg" alt="BFMSC" class="image">
+                            <div class="overlay">
+                                <img src="images/Freddie-Mercury-Statue-Charm.webp" alt="FMSC" class="overlay-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Freddie Mercury Statue Charm</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv jewlery">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Boxed-Brian-May-Guitar-Charm.webp" alt="BBMGC" class="image">
+                            <div class="overlay">
+                                <img src="images/Brian-May-Guitar-Charm.webp" alt="BMGC" class="overlay-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Brian May Guitar Charm</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv jewlery">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Boxed-Taylored-Drum-Charm.webp" alt="BTDC" class="image">
+                            <div class="overlay">
+                                <img src="images/Taylored-Drum-Charm.webp" alt="TDC" class="overlay-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Taylored Drum Charm</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv collectables">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Full-Freddie-Mercury-Statue.webp" alt="FFMS" class="image">
+                            <div class="overlay">
+                                <img src="images/Freddie-Mercury-Statue.webp" alt="FMS" class="overlay-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Freddie Mercury - Montreux The Statue</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv collectables">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Full-Brian-May-Coin.webp" alt="FBMC" class="image">
+                            <div class="overlay">
+                                <img src="images/Brian-May-Coin.webp" alt="BMC" class="overlay-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Brian May 'Star Fleet' 2023 Gold Sixpence</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv vinyls">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Queen-Greatest-Hits.webp" alt="QGH" class="image">
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Greatest Hits Vinyl</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv vinyls">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Queen-News-Of-The-World.webp" alt="QNOTW" class="image">
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>News Of The World Vinyl</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filterDiv clothes">
+                <div class="flex-item">
+                    <div class="flex-img">
+                        <div class="image-container">
+                            <img src="images/Mercury-Phoenix-Trust-World-Aids-Day-Tshirt.webp" alt="MPTWADT" class="image">
+                        </div>
+                    </div>
+                    <div class="flex-info">
+                        <h4>Mercury Phoenix Trust World Aids Day T-Shirt</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <img src="images/Queen-footer-logo.png" alt="footer-logo" class="center" style="height: 50px; width: 150px ">
+            <h2 style="font-size: 10px; color: white;">Copyright 2023, All Rights Reserved   —   Privacy Policy</h2>
+        </div>
+    </body>
+</html>

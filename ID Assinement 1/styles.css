@@ -1,0 +1,215 @@
+/* Index */
+    /* Navigation */
+* {
+  box-sizing: border-box;
+  background-color: black
+}
+
+.topnav{
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #D4AF37;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    /* Main page */
+.header {
+  background-color: black;
+  overflow: hidden;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  width: 25%;
+}
+
+.Album {
+  width: 100%;
+  padding: 20px;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  margin-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.center {
+  text-align: center;
+}
+
+.main-image{
+  height: 700px;
+  width: 1483px;
+}
+
+/* About */
+.container-profile {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+
+.about-img {
+  height: 300px;
+  width: 300px;
+}
+
+/* Shop */
+    /* Filter for items */
+.flex-info {
+  margin-top: auto;
+  color: white;
+  text-align: center;
+}
+
+.flex-item {
+  flex: 1 25%;
+  flex-grow: inherit;
+  background-color: black;
+  padding: 20px;
+}
+
+.flex-img img {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.container-shop {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.filterDiv {
+  width: 300px;
+}
+
+.filterDiv .flex-item {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show {
+  display: block;
+}
+
+.filter {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.filter:hover {
+  background-color: #ddd;
+}
+
+.filter.active {
+  background-color: #666;
+  color: white;
+}
+
+    /* Hover over image */
+.container-shop-alt {
+  position: relative;
+  width: 25%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* Media queary(Phone) */
+@media (max-width:1280px){
+  .topnav a {
+    float: right;
+    color: #D4AF37;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .main-image{
+    height: 700px;
+    width: 970px;
+  }
+
+  .container-profile {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+
+  .flex-info {
+    margin-top: auto;
+    color: white;
+    text-align: center;
+  }
+  
+  .flex-item {
+    flex: 1 100%;
+    flex-grow: inherit;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .flex-img img {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  
+}
